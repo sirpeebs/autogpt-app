@@ -14,13 +14,9 @@ export function Header() {
         aria-label="Global"
       >
         <a href="#" className="-m-1.5 p-1.5">
-          <span className="h-8 w-auto text-xl font-semibold underline underline-offset-2">
-            AutoGPT.js
-          </span>
+        <img src="./gptdev.png" alt="AutoGPT Logo" />
         </a>
         <div className="flex flex-1 justify-end">
-          <TweetShare />
-          <GitHubBadge />
         </div>
       </nav>
       <Dialog
