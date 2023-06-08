@@ -9,16 +9,16 @@ export function Header() {
 
   return (
     <header className="bg-white">
-      <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
-        aria-label="Global"
-      >
-        <a href="#" className="-m-1.5 p-1.5">
-        <img src="https://fastfile.cloud/cloudgpt/cloudgptlogo.png" alt="AutoGPT Logo" />
-        </a>
-        <div className="flex flex-1 justify-end">
-        </div>
-      </nav>
+  <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <a href="#" className="-m-1.5 p-1.5">
+      <img
+        src="https://fastfile.cloud/cloudgpt/cloudgptlogo.png"
+        alt="AutoGPT Logo"
+        className="h-8 w-8" // Adjust the height and width as needed
+      />
+    </a>
+    <div className="flex flex-1 justify-end"></div>
+  </nav>
       <Dialog
         as="div"
         className="lg:hidden"
