@@ -14,7 +14,7 @@ export function Header() {
         aria-label="Global"
       >
         <a href="#" className="-m-1.5 p-1.5">
-        <img src="/app/components/gptcloud.png" alt="AutoGPT Logo" />
+        <img src="./app/components/gptcloud.png" alt="AutoGPT Logo" />
         </a>
         <div className="flex flex-1 justify-end">
         </div>
