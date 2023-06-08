@@ -15,9 +15,12 @@ export function Header() {
       >
         <a href="#" className="-m-1.5 p-1.5">
           <span className="h-8 w-auto text-xl font-semibold underline underline-offset-2">
-            Cloug GPT: Autonomous AI Agent Interface
+            Cloud GPT: Autonomous AI Agent
           </span>
         </a>
+        <div className="flex flex-1 justify-end">
+        </div>
+      </nav>
       <Dialog
         as="div"
         className="lg:hidden"
